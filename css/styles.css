@@ -1,0 +1,19 @@
+body{
+    background-color: #ccc;
+}
+
+#container{
+    width: 60%;
+    height: 500px;
+    margin: 60px auto;
+    background-color: lightblue;
+}
+
+.attribution{
+     font-size: 11px; 
+     text-align: center;
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%);
+}
