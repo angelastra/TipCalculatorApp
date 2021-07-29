@@ -21,24 +21,29 @@ body{
 }
 
 #img-splitter{
-    margin: 20px auto;
-    
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 35px;
     text-align: center;
 }
+
 #principal{
     display: grid;
-    grid-template-columns: repeat(2,200px);
+    grid-template-columns: repeat(2,250px);
+    place-items: left;
+    gap: 10px;
     width: 60%;
-    height: 300px;
+    height: 200px;
     background-color: var(--white);
-    margin: auto;
+    margin: 0 auto;
     border-radius: 5%;
 }
 
 #container{
     width: 60%;
     height: 500px;
-    margin: 60px auto;
+    margin: 50px auto;
     background-color: lightblue;
 }
 
@@ -68,13 +73,13 @@ input[type="text"],[type="number"]{
 }
 
 #resultado{
-    height: 200px;
+    height: 100px;
     display: inline-block;
     background-color: red;
     border-radius: 5%;
     padding: 10px;
     margin-left: 40px;
-    width: 200px;
+    width: 100px;
 }
 
 #resultado__btn{
@@ -85,5 +90,4 @@ input[type="text"],[type="number"]{
 
 #datos{
     display: inline-block;
-    background-color: red;
 }
